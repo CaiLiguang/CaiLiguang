@@ -41,6 +41,7 @@ func main() {
 	// fmt.Printf("你的等级是 %s \n" , grade)
 
 
+	//select如果都符合条件，随机返回其中的一个。如果没有符合条件的，返回默认的
     var c1, c2, c3 chan int
     var i1, i2 int
     select {
